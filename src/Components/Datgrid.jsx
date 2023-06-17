@@ -19,7 +19,7 @@ function CustomToolbar() {
   useEffect(() => {
     getBobDetail();
   }, []);
-  console.log(data)
+  
 
   const handleButtonclick=(row)=>{
     console.log(`Button clicked for row:`,row)

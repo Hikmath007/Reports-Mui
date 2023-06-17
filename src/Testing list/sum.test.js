@@ -1,6 +1,9 @@
-const sum=require('./sum')
-test('adds 1+2 to equal 3',()=>{
-expect( 
-    sum(1,2)
-    ).toBe(3);
+// sum.test.js (Unit Test)
+const sum = require('./sum');
+
+describe('sum', () => {
+  it('should return the sum of two numbers', () => {
+    const result = sum(2, 3);
+    expect(result).toBe(5);
+  });
 });
